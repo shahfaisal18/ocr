@@ -1,0 +1,5 @@
+{
+  "name": "Stock OCR Simulation System",
+  "description": "A simulation of a stock trading system that uses a generative model to perform OCR on trading app screenshots, execute fake trades based on the extracted data, and display the results on a real-time dashboard.",
+  "requestFramePermissions": []
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stock OCR Simulation System</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'base': '#111827',
+              'surface': '#1F2937',
+              'overlay': '#374151',
+              'muted': '#6B7280',
+              'subtle': '#9CA3AF',
+              'text': '#F9FAFB',
+              'love': '#E11D48',
+              'gold': '#FBBF24',
+              'rose': '#F472B6',
+              'pine': '#10B981',
+              'foam': '#6EE7B7',
+              'iris': '#8B5CF6',
+              'highlight-low': 'rgba(31, 41, 55, 0.5)',
+              'highlight-med': 'rgba(55, 65, 81, 0.7)',
+              'highlight-high': 'rgba(107, 114, 128, 0.9)',
+            },
+            animation: {
+              'pulse-fast': 'pulse 1.5s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+            }
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^0.14.0"
+  }
+}
+</script>
+</head>
+  <body class="bg-base text-text">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
